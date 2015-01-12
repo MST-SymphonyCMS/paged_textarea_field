@@ -1,0 +1,108 @@
+p.label
+{
+    cursor: default;
+}
+
+.field-paged_textarea
+{
+    outline: none;
+}
+
+.field-paged_textarea div.border-box
+{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.field-paged_textarea.focused div.border-box
+{
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+.field-paged_textarea div.control-panel
+{
+    position: relative;
+    box-sizing: border-box;
+    margin: 2px 0 0 0;
+    height: 22px;
+    /* border: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.25); */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.field-paged_textarea div.control-panel
+{
+    /*position: relative;*/
+    display: table-row;
+    height: 26px;
+}
+
+.field-paged_textarea div.control-panel div.button-set
+{
+    float: left;
+    /*display: table-cell;*/
+    /*display: inline-block;*/
+    /*height: auto;*/
+}
+
+.field-paged_textarea div.control-panel div.actions
+{
+    padding: 0;
+}
+
+.field-paged_textarea div.control-panel div.pages
+{
+    padding-left: 10px;
+    /*overflow: auto;*/
+}
+
+.field-paged_textarea div.control-panel button
+{
+    /*vertical-align: top;
+    display: table-cell;*/
+    float: left;
+    margin: 2px 1px 0 3px;
+    text-align: center;
+}
+
+.field-paged_textarea div.control-panel button.action
+{
+    min-width: 50px;
+    padding: 0;    
+}
+
+.field-paged_textarea div.control-panel button.page
+{
+    width: 26px;
+    padding: 0;    
+}
+
+.field-paged_textarea div.control-panel button.current
+{
+    background: rgba(0, 0, 0, 0.25);
+    cursor: default;
+    /* color: white; */
+}
+
+.field-paged_textarea button.current-page
+{
+    font-size: 1.34rem;
+    font-weight: bold;
+}
+
+.field-paged_textarea textarea
+{
+    border: none;
+    margin-top: 0;
+    display: none;
+}
+
+.field-paged_textarea textarea.current
+{
+    display: block;
+    border: none;
+    resize: none;
+    overflow: auto;
+}

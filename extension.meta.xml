@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="paged_textarea_field" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+    <name>Paged Textarea Field</name>
+    <description>Textarea field which allows articles to be split into pages.</description>
+    <repo type="github">https://github.com/Petertron/paged_textarea_field</repo>
+    <!--<url type="discuss">http://symphony-cms.com/discuss/thread/</url>-->
+    <types>
+        <type>Field</type>
+    </types>
+    <authors>
+        <author>
+            <name github="Petertron" symphony="Petertron">Peter Skirenko</name>
+        </author>
+    </authors>
+    <releases>
+        <release version="0.1.0" date="2015-01-12" min="2.3">
+            - Initial release.
+        </release>
+    </releases>
+</extension> 
